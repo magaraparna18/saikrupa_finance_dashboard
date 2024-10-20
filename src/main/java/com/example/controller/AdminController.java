@@ -1,8 +1,4 @@
 package com.example.controller;
-
-
-
-
 import java.util.List;
 import java.util.Optional;
 
@@ -21,12 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.entity.Admin;
 import com.example.serviceimpl.AdminServiceImpl;
 import com.json.JsonResponcse;
-
-
-
-
-
-
 @RestController
 public class AdminController {
 	@Autowired
