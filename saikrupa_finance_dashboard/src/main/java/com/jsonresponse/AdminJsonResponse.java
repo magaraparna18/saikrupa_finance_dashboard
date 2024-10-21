@@ -1,6 +1,7 @@
-package com.adminjsonresponse;
+package com.jsonresponse;
 
-import com.adminentity.AdminEntity;
+import com.entity.AdminEntity;
+
 import lombok.Data;
 
 @Data

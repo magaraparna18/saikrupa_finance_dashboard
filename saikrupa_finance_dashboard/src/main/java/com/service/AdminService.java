@@ -1,10 +1,9 @@
-package com.adminservice;
+package com.service;
 
 import java.util.List;
 import java.util.Optional;
 
-
-import com.adminentity.AdminEntity;
+import com.entity.AdminEntity;
 
 
 public interface AdminService {
