@@ -25,7 +25,7 @@ public class AdminController {
 AdminServiceImpl adminservice;
 
     // Add Admin Record
-    @PostMapping("/add")
+    @PostMapping("/addadmin")
     public AdminEntity addAdminRecord(@RequestBody AdminEntity admin) {
         return adminservice.addAdminRecords(admin);
     }
